@@ -146,7 +146,7 @@ int main(int argc, char *argv[])
 {
 	FILE *file_ptr = fopen("D:\\MD5.txt", "w");
 	int j, k, n1, i1;
-	printf("\t MD5 ENCRYPTION IN C\n\n");
+	printf("\t MD5 WITH SALTING ENCRYPTION IN C\n\n");
 	char inp[200], str[50];
 	printf("Enter the value of inputs to hash or encrypt:\n");
 	scanf("%d", &n1);
